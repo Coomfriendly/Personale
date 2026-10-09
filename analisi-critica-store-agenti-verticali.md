@@ -111,6 +111,41 @@ _Data: 9 ottobre 2026_
 
 ---
 
+## 4-bis. Il modello del "rivenditore di sistemi cassa" applicato all'AI
+
+_Spunto del founder: un'azienda retail che vende punti cassa e soluzioni per negozi ("ARMENTARO retail"; non ho trovato informazioni pubbliche con questo nome, quindi uso il modello tipico del settore)._
+
+### Come funziona il modello dei sistemi cassa
+| Elemento | Nei sistemi cassa | Equivalente AI |
+|---|---|---|
+| Prodotto | Registratore telematico + POS + gestionale del punto vendita | Pacchetti di agenti per i processi del negozio o della PMI |
+| Chi produce | Produttori (es. DTR con MoitoIOT), software house | Piattaforme AI + chi confeziona i pacchetti |
+| Chi vende e installa | **Rivenditori locali** con tecnici sul territorio | Rivenditori o installatori AI locali |
+| Ricavo ricorrente | **Contratti di assistenza, verifiche periodiche obbligatorie**, aggiornamenti | Canone di manutenzione e aggiornamento |
+| Motore della domanda | **Obblighi di legge**: scontrino elettronico, verifiche periodiche, integrazione POS-RT obbligatoria dal 2026 | ❌ **Nessun obbligo**: la domanda è facoltativa |
+
+### La differenza decisiva: l'obbligo
+I rivenditori di sistemi cassa vivono di una domanda **resa obbligatoria dalla legge**. Ogni negozio deve avere il registratore telematico, farlo verificare e integrarlo con il POS. **Per l'AI non esiste un obbligo simile.** L'unico aggancio normativo è l'**AI Act**: chi usa sistemi di AI deve garantire un livello adeguato di **alfabetizzazione sull'AI** del personale (art. 4) e rispettare GDPR e trasparenza. Può essere un argomento di vendita, ma non è un obbligo forte come lo scontrino elettronico.
+
+### L'opportunità nascosta: i rivenditori esistenti come canale
+- Il **D.Lgs. 108/2024** apre alla possibilità di registratori **solo software**, e l'hardware perde peso. **I rivenditori di sistemi cassa e di informatica rischiano di perdere una parte del loro business** e cercano nuovi prodotti da vendere ai clienti che già seguono.
+- Hanno già ciò che a una startup manca: **la fiducia di migliaia di negozi, i tecnici sul territorio e i contratti di assistenza in corso.**
+- **Quindi:** invece di costruire una propria rete, si diventa il **"produttore e distributore" di pacchetti AI per i rivenditori esistenti**. Come DTR fornisce cassa e gestionale ai dealer, la startup fornirebbe il **catalogo AI, gli strumenti per installarlo, la formazione e l'assistenza di secondo livello**. Il rivenditore lo vende e lo installa ai suoi clienti.
+
+| | Rete propria (forma B) | **Distributore per i rivenditori esistenti** |
+|---|---|---|
+| Velocità di accesso ai clienti | Lenta | **Veloce**: i rivenditori hanno già i clienti |
+| Costo commerciale | Alto | Basso: si vendono pochi accordi con rivenditori, non migliaia di contratti |
+| Margine | Più alto per cliente | Più basso (si divide con il rivenditore), ma scala meglio |
+| Rischio | Assistenza diretta | Qualità variabile dei rivenditori; dipendenza dal canale |
+| Adatto a te | ✅ | ✅ **Molto**: è un lavoro di accordi commerciali e di rete |
+
+**Nuove ipotesi critiche per questa variante:**
+- **H6:** i rivenditori di sistemi cassa e informatica **vogliono** vendere AI e hanno le competenze minime per installarla con un buon supporto.
+- **H7:** i loro clienti (negozi, bar, ristoranti, piccole imprese) **hanno processi abbastanza standard** (prenotazioni, recensioni, ordini ai fornitori, magazzino, risposte ai clienti) da poter usare pacchetti uguali per tutti.
+
+---
+
 ## 5. Ipotesi critiche
 
 | # | Ipotesi | Perché potrebbe essere falsa | Peso |
