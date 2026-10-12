@@ -1,6 +1,6 @@
 # Blueprint dell'idea: assistente di riordino per distributori Horeca
 
-_Data: 11 ottobre 2026 · Versione 1 · Segue: [concept-assistente-riordino-horeca.md](concept-assistente-riordino-horeca.md)_
+_Data: 12 ottobre 2026 · Versione 2 (aggiornata con i vocali dell'11 ottobre: [trascrizioni-vocali-2026-10-11.md](trascrizioni-vocali-2026-10-11.md)) · Segue: [concept-assistente-riordino-horeca.md](concept-assistente-riordino-horeca.md)_
 
 > Questo documento dà una **struttura completa all'idea**: problema, cliente, prodotto, modello di business, numeri, vantaggi, rischi e decisioni aperte. Non è un piano operativo. Tutti i numeri sono **ipotesi da verificare**.
 
@@ -67,6 +67,8 @@ _Data: 11 ottobre 2026 · Versione 1 · Segue: [concept-assistente-riordino-hore
 | **Barista** | Avere sempre la merce giusta senza perderci tempo | Dimenticanze, attese, conti a memoria | Un posto dove segnare tutto in un secondo (vocale, foto, testo), suggerimenti utili, conferme |
 | **Rappresentante** | Fare più visite e vendere di più | Visite lunghe, clienti impreparati | Bozza pronta, note su cosa proporre, clienti che "si sono già fatti la lista" |
 | **Distributore** | Vendere di più a ogni cliente e tenerlo | Vendite perse, rappresentanti poco efficaci, buio sui dati | **Ordine medio più alto**, più visite per rappresentante, dati sulla domanda, un canale per le promozioni |
+| **Distributore** (dai vocali) | Sapere cosa chiedono davvero i clienti | Richieste perse ("mi chiedono il vermouth e non ce l'abbiamo"), errori non tracciati | **Mappa delle richieste non soddisfatte** (cosa aggiungere al catalogo), registro di richieste ed errori, più controllo |
+| **Rappresentante** (dai vocali) | Andare solo dove serve | Visite "a vuoto", 15 minuti per locale | **"Vuoi che passi?"**: il locale risponde sì o no; con la bozza pronta la visita scende a pochi minuti, quindi **più locali senza assumere altri rappresentanti** |
 
 **Il messaggio per il distributore, in una frase:**
 > *"I tuoi clienti si dimenticano metà delle cose che vorrebbero comprare. Noi le raccogliamo per te durante la settimana."*
@@ -99,6 +101,11 @@ _Data: 11 ottobre 2026 · Versione 1 · Segue: [concept-assistente-riordino-hore
 | Inserimento automatico nel gestionale | | ✅ (gestionali più diffusi) | |
 | Ordini urgenti tra una visita e l'altra (consegna fuori giro) | | ✅ | |
 | Cruscotto per il titolare | Report semplice | ✅ | Analisi della domanda |
+| **Risposte sul catalogo** ("che birre nuove hai?"), con proposta e invio del catalogo | ✅ (catalogo caricato) | Collegato a magazzino e disponibilità | |
+| **"Vuoi che passi?"**: conferma o annullamento della visita da parte del locale | ✅ | Giri ottimizzati in base alle risposte | |
+| **Richieste non soddisfatte** (prodotti chiesti ma non in catalogo) e registro degli errori | Elenco semplice | ✅ Report per il titolare | Suggerimenti di nuovi prodotti da inserire |
+| **Bozza sul tablet del rappresentante** (nella sua app) | Via WhatsApp o pagina web | ✅ Integrazione con le app di raccolta ordini più diffuse | |
+| Comprensione del **dialetto** e dei nomi colloquiali, con memoria per cliente | Base | ✅ Dizionario per zona | |
 
 ### Cosa il prodotto NON fa (scelte deliberate)
 - **Non sostituisce il rappresentante:** l'ordine resta suo.
@@ -182,6 +189,7 @@ _Data: 11 ottobre 2026 · Versione 1 · Segue: [concept-assistente-riordino-hore
 | **Mercato servibile in Italia** | **~11-34 M€/anno** |
 | Per 1 M€ di ricavi annui | ~50-120 distributori |
 | Estensioni | Altri grossisti (food, carni, ortofrutta, pulizia, caffè); produttori con rete di agenti; Spagna, Portogallo, Grecia |
+| **Mercato allargato (dai vocali)** | **Tutte le aziende che fanno giri fissi con acquisti ricorrenti** (non carichi grandi, ma consegne ripetute negli stessi posti): distributori food e bevande, aziende come Pagano che servono sempre gli stessi clienti, panifici e pasticcerie all'ingrosso, forniture per uffici e pulizia |
 
 ---
 
@@ -235,6 +243,11 @@ _Data: 11 ottobre 2026 · Versione 1 · Segue: [concept-assistente-riordino-hore
                          LAVORA PER IL DISTRIBUTORE
 ```
 
+### Il vantaggio principale: le integrazioni (dai vocali)
+> *"Un chatbot semplice si copia. Avere già il collegamento con mille numeri WhatsApp e con tutti i tipi di gestionale è difficile da fare: quando ti presenti hai un prodotto che funziona, e anche se costa, li vale."*
+
+Il cliente non paga per "un'AI che risponde", che chiunque può costruire. Paga per **l'accesso a cose difficili da ottenere**: WhatsApp gestito su larga scala in modo ufficiale e affidabile, e il **collegamento con i gestionali** di distribuzione italiani. È lo stesso motivo per cui si paga un servizio che dà accesso alle API di LinkedIn: non per la funzione, ma per l'accesso.
+
 ### Vantaggi che si costruiscono nel tempo
 1. **Il linguaggio reale degli ordini Horeca in italiano** (e nei dialetti): ogni conversazione lo migliora.
 2. **Lo storico della domanda** di migliaia di locali: permette suggerimenti migliori e, in futuro, dati utili ai produttori.
@@ -247,6 +260,7 @@ _Data: 11 ottobre 2026 · Versione 1 · Segue: [concept-assistente-riordino-hore
 
 | Rischio | Tipo | Risposta |
 |---|---|---|
+| **"Al Sud i clienti di 50-60 anni parlano in dialetto: l'AI non li capisce"** (obiezione tipica dei distributori) | Percezione | Dimostrarlo dal vivo con vocali reali in dialetto; memoria per cliente e dizionario per zona. Va affrontata subito nella vendita |
 | I locali non prendono l'abitudine di scrivere | Adozione | Massima semplicità (vocale, "segna"), promemoria il giorno prima della visita, vantaggi concreti (promozioni, conferme) |
 | I rappresentanti lo vivono come una minaccia | Canale | Presentarlo come il **loro** assistente; l'ordine resta loro, con la loro provvigione |
 | Il distributore non vede ritorno | Valore | Misurare l'ordine medio prima e dopo su un gruppo di clienti |
